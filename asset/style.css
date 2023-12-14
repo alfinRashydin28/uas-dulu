@@ -271,7 +271,7 @@ ul.navlist {
     display: column;
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Patua One', serif;
-    font-size: 20px;
+    font-size: 1.3rem;
 
 }
 
@@ -519,7 +519,6 @@ ul.navlist {
     width: 85%;
     padding-top: 30px;
     height: 550px;
-    /* align-items: center; */
     border-radius: 30px;
     
 
@@ -1104,4 +1103,115 @@ ul.navlist {
 /* END ABOUT */
 
 
+/* RESPONSIVE */
+@media screen and (max-width: 450px) {
+  .containe {
+    height: 100vh;
+    background-color: #FFBB5C;
+    display: block;
+    padding-top: 90px;
+    padding-left: -9px;
+  }
+  .containe-text {
+    margin-left:40px;
+    font-size: 1rem;
 
+  }
+  #ikan-home {
+    max-height: 500px;
+  }
+
+  .tag_content {
+    display: block;
+    width: 100%;
+  }
+  .tag_img{
+    display: contents;
+    padding-left: 10%;
+  }
+  .tag_img img {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 40px;
+      
+  }
+  .tag_content_text {
+  
+    text-align: center;
+    display: contents;
+    font-size: 0.8rem;
+  }
+
+  .content-2 {
+    display: block;
+    height: 110vh;
+  }
+
+  .card-home {
+    width: 280px;
+    height: 530px;
+    margin: auto;
+  }
+  .footer {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    height: 80px;
+    
+  }
+  .copirek {
+    margin-top: 50px;
+  }
+
+
+  
+
+
+  /* produk */
+  .kaver {
+    height: auto;
+  }
+  .conteiner {
+    margin-top: 30px;
+    background-color: #FF9B50;
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+    width: 85%;
+    height: auto;
+    
+  }
+
+  
+  .card {
+    position: relative;
+    width: 280px;
+    height: 200px;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #C63D2F;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 0px 0px 30px 35px;
+        
+  }
+
+
+
+
+
+  .content_popup {
+    width: 90%;
+    height: 400px;
+  
+  }
+
+  /* end produk */
+}
+
+
+/* END RESPONSIVE */
