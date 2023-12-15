@@ -1232,7 +1232,8 @@ ul.navlist {
   .h-nav {
     display: block;
     justify-content: start;
-  
+    visibility: hidden;
+    opacity: 0;
   }
 
   .h-nav .logo {
