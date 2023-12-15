@@ -174,7 +174,6 @@ ul.navlist {
 .navlist li a{
   width: 120px;
   height: 40px;
-  margin-left: 1rem;
   text-decoration: none;
   justify-content: center;
   align-items: center;
@@ -1155,6 +1154,20 @@ ul.navlist {
     height: 530px;
     margin: auto;
   }
+  .containe-text-1 {
+    margin-left: 30px;
+  }
+  .containe-text-1 h1 {
+    font-weight: 950;
+    padding-top: 60px;
+    font-size: 1.4rem;
+  }
+
+  .containe-text-1 p {
+    
+    font-size: 1rem;
+    width: 350px;
+  }
   .footer {
     width: 100%;
     position: absolute;
@@ -1212,7 +1225,66 @@ ul.navlist {
   
   }
 
-  /* end produk */
+
+  
+  /* NAVBAR */
+
+  .h-nav {
+    display: block;
+    justify-content: start;
+  
+  }
+
+  .h-nav .logo {
+  font-size: 30px;
+  }
+
+  
+
+  ul.navlist {
+    background-color: #f5d1b0;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 1px 1px;
+
+    
+  }
+
+
+  .navlist li a{
+  width: 100%;
+  font-size: 0.9rem;
+  }
+
+  .navlist li > a:hover {
+  background-color: #fff;
+  line-height: 50px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    width: 90%;
+    background-color: #ffff;
+    font-size: 14px;
+  
+  }
+  .logo-platform{
+    display: flex;
+    width: 250px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    
+  }
+  
+
+  
+
 }
 
 
